@@ -48,31 +48,11 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/ekazakov.png
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+  Hi there! My name is Eduard and I'm a specialist in geoinformatics, cartography and Earth remote sensing with scienific background. Enthusiast and contributor of opensource geospatial software, in love with geography and nature. Now I'm located in Novi Sad, Serbia, but looking for a chance to start a new life in US or EU, in industry or as PhD student.
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  I am most skilled in: <mark>GIS (QGIS, GRASS, SAGA)</mark>, <mark>Python</mark>, <mark>Scientific research</mark>, <mark>Lecturing</mark>
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
-          ![Trees](/cv/images/landscape-trees.jpg "Trees")
-
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -95,7 +75,15 @@ content:
           State Hydrological Institute is a center of water resources research in Russia
         description: | # this will include new lines to allow paragraphs
             Managing small but gorgeus group of researchers and software developers. Scientific research in field of water resources and hydrological processes modeling on basis of GIS and remote sensing data. Developing software, making maps (a lot of!), writing papers.
-            
+      
+	  - layout: left
+        title: NextGIS
+        link: nextgis.com
+        sub_title: Software developer (part time)
+        caption: March 2019 - January 2021
+        description: | # this will include new lines to allow paragraphs
+            Different stuff mostly in python: QGIS plugins, scripts for geodata processing, modeling over remote sensing data. Making maps.
+	  
       - layout: left
         title: Nansen International Environmental and Remote Sensing Center
         link: niersc.spb.ru
@@ -108,7 +96,7 @@ content:
 
       - layout: left
         title: Saint Petersburg State University
-        link: spbu.ru
+        link: https://english.spbu.ru/
         sub_title: Lecturer
         caption: September 2014 - July 2017
         description: | # this will include new lines to allow paragraphs
@@ -122,11 +110,31 @@ content:
         caption: 2009 - 2014
         sub_title: Specialist in Geoinformatics (equal to MSc)
         quote: >
-          
+            Saint Petersburg University is the oldest and one of the largest universities in Russia. Founded in 1724 by a decree of Peter the Great, the university from the very beginning has had a strong focus on fundamental research in science, engineering and humanities.
         description: | # this will include new lines to allow paragraphs
-          During my time at Saint Petersburg State University I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+          During my time at department of cartography and geoinformatics in Saint Petersburg State University I learnt deeply all fundamentals of cartography, geodesy, photogrammetry, geoinformatics and satellite remote sensing. 
 
-          ...
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: Super awesome project
+        link: github.com/sproogen
+        # link_text: Project Website
+        additional_links:
+          - title:  sproogen/modern-resume-theme
+            icon: fab fa-github
+            url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        description: | # this will include new lines to allow paragraphs
+          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          ![Trees](/cv/images/landscape-trees.jpg "Trees")
+
+
 
   - title: A Little More About Me
     layout: text
