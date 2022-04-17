@@ -52,7 +52,7 @@ about_content: | # this will include new lines to allow paragraphs
 
   I am most skilled in: <mark>GIS</mark> <mark>QGIS</mark> <mark>Python</mark> <mark>GDAL/OGR</mark> <mark>Remote sensing data processing</mark> <mark>Scientific research</mark> <mark>Lecturing</mark>
   
-  Full list of publications: [Google Scholar](https://scholar.google.com/citations?user=kUaRzT4AAAAJ) | [ResearchGate](https://www.researchgate.net/profile/Eduard-Kazakov/publications)
+  Full list of publications: [Google Scholar](https://scholar.google.com/citations?user=kUaRzT4AAAAJ), [ResearchGate](https://www.researchgate.net/profile/Eduard-Kazakov/publications)
 
 content:
   - title: List of keywords
@@ -121,6 +121,16 @@ content:
         description: | # this will include new lines to allow paragraphs
           During my time at department of cartography and geoinformatics in Saint Petersburg State University I learnt deeply all fundamentals of cartography, geodesy, photogrammetry, geoinformatics and satellite remote sensing. 
 
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      - I'm from Russia, but now me with wife and infant live in Novi Sad, Serbia.
+      - Big fan of QGIS. I'm main coordinator of russion translation, author of [popular public plugins](https://plugins.qgis.org/plugins/author/Eduard%2520Kazakov/), QGIS-related events organizer, consultant etc.
+      - Prefer to use and improve opensource (software, data, documentation) when it's possible.
+      - Most important words: community, partnership, knowledge sharing.
+      - Hate violence of all forms and motivations.
+      - Best pastime outside of work: family, hiking, classical music.
+
   - title: Selected papers and projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -136,21 +146,26 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         description: | # this will include new lines to allow paragraphs
-          I proposed a hypothesis about posibility to reconstruct gaps (e.g. clouds) in remote sensing imagery by establishing relationships between pixels based on archived data and machine learning techniques. We have implemented opensource software toolbox and test it for different datasets: LST, Albedo, NDVI. Optimistic results were obtained, and I used this algorithm when creating a continuous series of various parameters of the earth's surface
+          During my work at Hydrological Institute I proposed a hypothesis about posibility to reconstruct gaps (e.g. clouds) in remote sensing imagery by establishing relationships between pixels based on archived data and machine learning techniques. We have implemented opensource software toolbox and test it for different datasets: LST, Albedo, NDVI. [Optimistic results](mdpi.com/2072-4292/12/23/3865) were obtained, and I used this algorithm when creating a continuous series of various parameters of the earth's surface
+          
            ![Gapfilling](/images/gapfilling.png "Gapfilling")
-
-
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      - I'm from Russia, but now me with wife and infant live in Novi Sad, Serbia.
-      - Big fan of QGIS. I'm main coordinator of russion translation, author of [popular public plugins](https://plugins.qgis.org/plugins/author/Eduard%2520Kazakov/), QGIS-related events organizer, consultant etc.
-      - Prefer to use and improve opensource (software, data, documentation) when it's possible.
-      - Most important words: community, partnership, knowledge sharing.
-      - Hate violence of all forms and motivations.
-      - Best pastime outside of work: family, hiking, classical music.
-
-
+           
+           
+      - layout: top-middle
+        title: Automated monitoring system of ice conditions in Arctic seas based on SAR data
+        
+        description: | # this will include new lines to allow paragraphs
+          During my work at NIESRC we have developed several algorithms of automated sea ice conditions monitoring and unite them to operative informational system. Every day sytem downloads new Sentinel-1 SAR data, calculates sea ice classification map, sea ice drift map, detects icebergs and publish maps to NextGIS Web server GIS. The unique component of system is our [authorial algorithm of precise sea ice drift retrieving](https://ieeexplore.ieee.org/abstract/document/7938663/).
+          
+           ![SeaMonitoring](/images/seamonitoring.png "SeaMonitoring")
+           
+      - layout: top-middle
+        title: Complex research for coccolithophores blooms in Arctic and Sub-Arctic Seas (1998-2016)
+        
+        description: | # this will include new lines to allow paragraphs
+          Under guidance of prof. Dmitry Pozdnyakov at NIESRC we have to do large-scale study about coccolithophores blooms and how they affect global climate system. Large satellite dataset for 20 years was collected and processed with authorial algorithms together with in-situ measurements. We have prepared and published [database of calculated blooms](https://www.earth-syst-sci-data.net/11/119/2019/essd-11-119-2019.html) and several papers about research: [1](https://doi.org/10.1117/12.2325127),[2](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11150/2547868/Environmental-conditions-favoring-coccolithophore-blooms-in-subarctic-and-arctic-seas/10.1117/12.2547868.short?SSO=1),[3](http://journals.krc.karelia.ru/index.php/limnology/article/view/1107/783)
+          
+           ![Huxley](/images/huxley.png "Huxley")
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
