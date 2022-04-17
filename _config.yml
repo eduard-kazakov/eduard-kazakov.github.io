@@ -135,9 +135,7 @@ content:
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        description: | # this will include new lines to allow paragraphs
-           I proposed a hypothesis about posibility to reconstruct gaps (e.g. clouds) in remote sensing imagery by establishing relationships between pixels based on archived data and machine learning techniques. We have implemented opensource software toolbox and test it for different datasets: LST, Albedo, NDVI. Optimistic results were obtained, and I used this algorithm when creating a continuous series of various parameters of the earth's surface
-           ![Gapfilling](/images/gapfilling.png "Gapfilling")
+        description: as
 
 
   - title: A Little More About Me
