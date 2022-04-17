@@ -48,9 +48,11 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/ekazakov.png
 about_content: | # this will include new lines to allow paragraphs
-  Hi there! My name is Eduard and I'm a specialist in geoinformatics, cartography and Earth remote sensing with scienific background. Enthusiast and contributor of opensource geospatial software, in love with geography and nature. Now I'm located in Novi Sad, Serbia, but looking for a chance to start a new life in US or EU, in industry or as PhD student.
+  Hi there! My name is Eduard and I'm a specialist in geoinformatics, cartography and Earth remote sensing with scienific background. Enthusiast and contributor of opensource geospatial software, in love with geography and nature. Now I'm looking for a chance to start a new life in US or EU, in industry or as PhD student.
 
   I am most skilled in: <mark>GIS (QGIS, GRASS, SAGA)</mark>, <mark>Python</mark>, <mark>GDAL/OGR</mark>, <mark>Scientific research</mark>, <mark>Lecturing</mark>
+  
+  Full list of publications: ...
 
 content:
   - title: Experience # Title for the section
@@ -83,7 +85,7 @@ content:
         caption: March 2019 - January 2021
         description: | # this will include new lines to allow paragraphs
             Different stuff mostly in python: QGIS plugins, scripts for geodata processing, modeling over remote sensing data. Making maps.
-	  
+            
       - layout: left
         title: Nansen International Environmental and Remote Sensing Center
         link: niersc.spb.ru
