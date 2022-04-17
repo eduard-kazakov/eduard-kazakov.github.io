@@ -69,13 +69,14 @@ content:
         sub_title: Director of Educational programs
         caption: January 2021 - Present
         quote: >
-          NextGIS is well-known company, developing full stack opensouce GIS software: server, desktop and mobile
+          NextGIS is well-known company, developing full stack opensource GIS software: server, desktop and mobile
         description: | # this will include new lines to allow paragraphs
             Managing processes around education, community and public relations. Developing and conducting of educational courses for NextGIS Software, QGIS, GRASS, SAGA etc. Consulting. Presentations for clients.
             
       - layout: left
         title: State Hydrological Institute
-        link: hydrology.ru/en
+        link: http://hydrology.ru/en
+        link_text: hydrology.ru
         sub_title: Head of Geoinformatics group
         caption: March 2019 - January 2021
         quote: >
@@ -93,11 +94,12 @@ content:
             
       - layout: left
         title: Nansen International Environmental and Remote Sensing Center
-        link: niersc.spb.ru
+        link: http://www.niersc.spb.ru/
+        link_text: niersc.spb.ru
         sub_title: Researcher
         caption: March 2016 - December 2018
         quote: >
-          NIERSC is russian branch of Norway-based Nansen's center, conducting advanced research in the field of remote sensing of environment
+          NIERSC is Russian branch of Norway-based Nansen center, conducting advanced research in the field of remote sensing of environment
         description: | # this will include new lines to allow paragraphs
             Scientific research in two research groups: «Aquatic ecosystems in response to global change» and «Applied meteorological and oceanographic research». Processing satellite remote sensing data, developing automated environmental monitoring system, writing papers.
 
@@ -146,9 +148,9 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         description: | # this will include new lines to allow paragraphs
-          During my work at Hydrological Institute I proposed a hypothesis about posibility to reconstruct gaps (e.g. clouds) in remote sensing imagery by establishing relationships between pixels based on archived data and machine learning techniques. We have implemented opensource software toolbox and test it for different datasets: LST, Albedo, NDVI. [Optimistic results](mdpi.com/2072-4292/12/23/3865) were obtained, and I used this algorithm when creating a continuous series of various parameters of the earth's surface
+          During my work at Hydrological Institute I proposed a hypothesis about posibility to reconstruct gaps (e.g. clouds) in remote sensing imagery by establishing relationships between pixels based on archived data and machine learning techniques. We have implemented opensource software toolbox and test it for different datasets: LST, Albedo, NDVI. [Optimistic results](mdpi.com/2072-4292/12/23/3865) were obtained, and I used this algorithm when creating a continuous series of various parameters of the Earth's surface
           
-          <p align="center"><img src="/images/gapfilling.png" width="600">)</p>
+          <div align="center"><img src="/images/gapfilling.png" width="600"></p>
            
            
       - layout: top-middle
