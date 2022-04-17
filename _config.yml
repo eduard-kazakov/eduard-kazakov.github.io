@@ -126,12 +126,12 @@ content:
     content:
       - layout: top-middle
         title: A Machine Learning Approach for Remote Sensing Data Gap-Filling with Open-Source Implementation: An Example Regarding Land Surface Temperature, Surface Albedo and NDVI
-        link: https://www.mdpi.com/2072-4292/12/23/3865
+        link: mdpi.com/2072-4292/12/23/3865
         # link_text: Project Website
         additional_links:
-          - title:  Dreamlone/SSGP-toolbox
+          - title: Dreamlone/SSGP-toolbox
             icon: fab fa-github
-            url: https://github.com/Dreamlone/SSGP-toolbox
+            url: github.com/Dreamlone/SSGP-toolbox
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
