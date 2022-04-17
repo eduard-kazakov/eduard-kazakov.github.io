@@ -50,9 +50,9 @@ about_profile_image: images/ekazakov.png
 about_content: | # this will include new lines to allow paragraphs
   Hi there! My name is Eduard and I'm a specialist in geoinformatics, cartography and Earth remote sensing with scienific background. Enthusiast and contributor of opensource geospatial software, in love with geography and nature. Now I'm looking for a chance to start a new life in US or EU, in industry or as PhD student.
 
-  I am most skilled in: <mark>GIS (QGIS, GRASS, SAGA)</mark>, <mark>Python</mark>, <mark>GDAL/OGR</mark>, <mark>Scientific research</mark>, <mark>Lecturing</mark>
+  I am most skilled in: <mark>GIS</mark> <mark>QGIS</mark> <mark>Python</mark> <mark>GDAL/OGR</mark> <mark>Remote sensing data processing</mark> <mark>Scientific research</mark> <mark>Lecturing</mark>
   
-  Full list of publications: ...
+  Full list of publications: [Google Scholar](https://scholar.google.com/citations?user=kUaRzT4AAAAJ)
 
 content:
   - title: Experience # Title for the section
@@ -140,19 +140,17 @@ content:
   - title: List of keywords
     layout: text
     content: | # this will include new lines to allow paragraphs
-      <mark>Geoinformatics</mark> <mark>Earth remote sensing</mark> <mark>Spatial analysis</mark> <mark>Spatial data</mark> <mark>Cartography</mark> <mark>Software development</mark> <mark>Lecturing</mark> <mark>Scientific research</mark> <mark>Team management</mark> <mark>Project management</mark> <mark>QGIS</mark> <mark>GRASS</mark> <mark>SAGA</mark> <mark>ArcGIS</mark> <mark>MapInfo</mark> <mark>NextGIS Web</mark> <mark>Google Earth Engine</mark> <mark>Field data collecting</mark> <mark>QField</mark> <mark>NextGIS Collector</mark> <mark>Geodesy</mark> <mark>Photogrammetry</mark> <mark>Statistics</mark> <mark>Machine learning</mark> <mark>ENVI</mark> <mark>Agisoft Metashape</mark> <mark>OpenDroneMap</mark> <mark>OpenStreetMap</mark> <mark>Python</mark> <mark>GDAL/OGR</mark> <mark>matplotlib</mark> <mark>pandas</mark> <mark>scikit-learn</mark> <mark>numpy</mark> <mark>Docker</mark> <mark>JavaScript</mark> <mark>Git</mark> <mark>Linux/Unix</mark> <mark>Solving computer problems</mark>  <mark>Qt</mark> <mark>Automation</mark> <mark>Copernicus data and services</mark> <mark>OGC standarts</mark> <mark>Sentinel</mark> <mark>Landsat</mark> <mark>MODIS</mark> <mark>VIIRS</mark> <mark>SAR</mark> <mark>Geomorphometrical analysis of DEMs</mark> <mark>Hydrological analysis of DEMs</mark> <mark>Network analysis</mark> 
+      <mark>Geoinformatics</mark> <mark>Earth remote sensing</mark> <mark>Spatial analysis</mark> <mark>Spatial data</mark> <mark>Cartography</mark> <mark>Software development</mark> <mark>Lecturing</mark> <mark>Scientific research</mark> <mark>Environmental monitoring</mark> <mark>Team management</mark> <mark>Project management</mark> <mark>QGIS</mark> <mark>GRASS</mark> <mark>SAGA</mark> <mark>ArcGIS</mark> <mark>MapInfo</mark> <mark>NextGIS Web</mark> <mark>Google Earth Engine</mark> <mark>Field data collecting</mark> <mark>QField</mark> <mark>NextGIS Collector</mark> <mark>Geodesy</mark> <mark>Photogrammetry</mark> <mark>Statistics</mark> <mark>Machine learning</mark> <mark>ENVI</mark> <mark>Agisoft Metashape</mark> <mark>OpenDroneMap</mark> <mark>OpenStreetMap</mark> <mark>SQL</mark> <mark>PostGIS</mark> <mark>Python</mark> <mark>GDAL/OGR</mark>  <mark>matplotlib</mark> <mark>pandas</mark> <mark>scikit-learn</mark> <mark>numpy</mark> <mark>Docker</mark> <mark>JavaScript</mark> <mark>Git</mark> <mark>Linux/Unix</mark> <mark>Solving computer problems</mark>  <mark>Qt</mark> <mark>Automation</mark> <mark>Copernicus data and services</mark> <mark>OGC standarts</mark> <mark>Sentinel</mark> <mark>Landsat</mark> <mark>MODIS</mark> <mark>VIIRS</mark> <mark>SAR</mark> <mark>Geomorphometrical analysis of DEMs</mark> <mark>Hydrological analysis of DEMs</mark> <mark>Network analysis</mark>
 
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+      - I'm from Russia, but now me with wife and infant live in Novi Sad, Serbia.
+      - Big fan of QGIS. I'm main coordinator of russion translation, author of [popular public plugins] (https://plugins.qgis.org/plugins/author/Eduard%2520Kazakov/), QGIS-related events organizer, consultant etc.
+      - Prefer to use and improve opensource (software, data, documentation) if it's possible.
+      - Most important words: community, partnership, knowledge sharing.
+      - Hate violence of all forms and motivations.
 
-      Look at this cool image  
-      ![Trees](/cv/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
