@@ -52,13 +52,13 @@ about_content: | # this will include new lines to allow paragraphs
 
   I am most skilled in: <mark>GIS</mark> <mark>QGIS</mark> <mark>Python</mark> <mark>GDAL/OGR</mark> <mark>Remote sensing data processing</mark> <mark>Scientific research</mark> <mark>Lecturing</mark>
   
-  Full list of publications: [Google Scholar](https://scholar.google.com/citations?user=kUaRzT4AAAAJ) [ResearchGate](https://www.researchgate.net/profile/Eduard-Kazakov/publications)
+  Full list of publications: [Google Scholar](https://scholar.google.com/citations?user=kUaRzT4AAAAJ) | [ResearchGate](https://www.researchgate.net/profile/Eduard-Kazakov/publications)
 
 content:
   - title: List of keywords
     layout: text
     content: | # this will include new lines to allow paragraphs
-      <mark>Geoinformatics</mark> <mark>Earth remote sensing</mark> <mark>Spatial analysis</mark> <mark>Spatial data</mark> <mark>Cartography</mark> <mark>Software development</mark> <mark>Lecturing</mark> <mark>Scientific research</mark> <mark>Environmental monitoring</mark> <mark>Team management</mark> <mark>Project management</mark> <mark>QGIS</mark> <mark>GRASS</mark> <mark>SAGA</mark> <mark>ArcGIS</mark> <mark>MapInfo</mark> <mark>NextGIS Web</mark> <mark>Google Earth Engine</mark> <mark>Field data collecting</mark> <mark>QField</mark> <mark>NextGIS Collector</mark> <mark>Geodesy</mark> <mark>Photogrammetry</mark> <mark>Statistics</mark> <mark>Machine learning</mark> <mark>ENVI</mark> <mark>Agisoft Metashape</mark> <mark>OpenDroneMap</mark> <mark>OpenStreetMap</mark> <mark>SQL</mark> <mark>PostGIS</mark> <mark>Python</mark> <mark>GDAL/OGR</mark>  <mark>matplotlib</mark> <mark>pandas</mark> <mark>scikit-learn</mark> <mark>numpy</mark> <mark>Docker</mark> <mark>JavaScript</mark> <mark>Git</mark> <mark>Linux/Unix</mark> <mark>Solving computer problems</mark>  <mark>Qt</mark> <mark>Automation</mark> <mark>Copernicus data and services</mark> <mark>OGC standarts</mark> <mark>Sentinel</mark> <mark>Landsat</mark> <mark>MODIS</mark> <mark>VIIRS</mark> <mark>SAR</mark> <mark>Geomorphometrical analysis of DEMs</mark> <mark>Hydrological analysis of DEMs</mark> <mark>Network analysis</mark>
+      <mark>Geoinformatics</mark> <mark>Earth remote sensing</mark> <mark>Spatial analysis</mark> <mark>Spatial data</mark> <mark>Cartography</mark> <mark>Software development</mark> <mark>Lecturing</mark> <mark>Scientific research</mark> <mark>Environmental monitoring</mark> <mark>Team management</mark> <mark>Project management</mark> <mark>QGIS</mark> <mark>GRASS</mark> <mark>SAGA</mark> <mark>ArcGIS</mark> <mark>MapInfo</mark> <mark>NextGIS Web</mark> <mark>Google Earth Engine</mark> <mark>Field data collecting</mark> <mark>QField</mark> <mark>NextGIS Collector</mark> <mark>Geodesy</mark> <mark>Photogrammetry</mark> <mark>UAV</mark> <mark>Statistics</mark> <mark>Machine learning</mark> <mark>ENVI</mark> <mark>Agisoft Metashape</mark> <mark>OpenDroneMap</mark> <mark>OpenStreetMap</mark> <mark>SQL</mark> <mark>PostGIS</mark> <mark>Python</mark> <mark>GDAL/OGR</mark>  <mark>matplotlib</mark> <mark>pandas</mark> <mark>scikit-learn</mark> <mark>numpy</mark> <mark>Docker</mark> <mark>JavaScript</mark> <mark>Git</mark> <mark>Linux/Unix</mark> <mark>Solving computer problems</mark>  <mark>Qt</mark> <mark>Automation</mark> <mark>Copernicus data and services</mark> <mark>OGC standarts</mark> <mark>Sentinel</mark> <mark>Landsat</mark> <mark>MODIS</mark> <mark>VIIRS</mark> <mark>SAR</mark> <mark>Geomorphometrical analysis of DEMs</mark> <mark>Hydrological analysis of DEMs</mark> <mark>Network analysis</mark>
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -121,25 +121,23 @@ content:
         description: | # this will include new lines to allow paragraphs
           During my time at department of cartography and geoinformatics in Saint Petersburg State University I learnt deeply all fundamentals of cartography, geodesy, photogrammetry, geoinformatics and satellite remote sensing. 
 
-  - title: Projects # Title for the section
+  - title: Selected papers and projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
+        title: A Machine Learning Approach for Remote Sensing Data Gap-Filling with Open-Source Implementation: An Example Regarding Land Surface Temperature, Surface Albedo and NDVI
+        link: https://www.mdpi.com/2072-4292/12/23/3865
         # link_text: Project Website
         additional_links:
-          - title:  sproogen/modern-resume-theme
+          - title:  Dreamlone/SSGP-toolbox
             icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
+            url: https://github.com/Dreamlone/SSGP-toolbox
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
-          ![Trees](/cv/images/landscape-trees.jpg "Trees")
+           I proposed a hypothesis about posibility to reconstruct gaps (e.g. clouds) in remote sensing imagery by establishing relationships between pixels based on archived data and machine learning techniques. We have implemented opensource software toolbox and test it for different datasets: LST, Albedo, NDVI. Optimistic results were obtained, and I used this algorithm when creating a continuous series of various parameters of the earth's surface
+           ![Gapfilling](/images/gapfilling.png "Gapfilling")
 
 
   - title: A Little More About Me
@@ -147,7 +145,7 @@ content:
     content: | # this will include new lines to allow paragraphs
       - I'm from Russia, but now me with wife and infant live in Novi Sad, Serbia.
       - Big fan of QGIS. I'm main coordinator of russion translation, author of [popular public plugins](https://plugins.qgis.org/plugins/author/Eduard%2520Kazakov/), QGIS-related events organizer, consultant etc.
-      - Prefer to use and improve opensource (software, data, documentation) if it's possible.
+      - Prefer to use and improve opensource (software, data, documentation) when it's possible.
       - Most important words: community, partnership, knowledge sharing.
       - Hate violence of all forms and motivations.
       - Best pastime outside of work: family, hiking, classical music.
