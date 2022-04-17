@@ -150,24 +150,25 @@ content:
         description: | # this will include new lines to allow paragraphs
           During my work at Hydrological Institute I proposed a hypothesis about posibility to reconstruct gaps (e.g. clouds) in remote sensing imagery by establishing relationships between pixels based on archived data and machine learning techniques. We have implemented opensource software toolbox and test it for different datasets: LST, Albedo, NDVI. [Optimistic results](mdpi.com/2072-4292/12/23/3865) were obtained, and I used this algorithm when creating a continuous series of various parameters of the Earth's surface
           
-          <div align="center"><img src="/images/gapfilling.png" width="600"></p>
+          <div align="center"><img src="/images/gapfilling.png" width="600"></div>
            
            
       - layout: top-middle
         title: Automated monitoring system of ice conditions in Arctic seas based on SAR data
         
         description: | # this will include new lines to allow paragraphs
-          During my work at NIESRC we have developed several algorithms of automated sea ice conditions monitoring and unite them to operative informational system. Every day sytem downloads new Sentinel-1 SAR data, calculates sea ice classification map, sea ice drift map, detects icebergs and publish maps to NextGIS Web server GIS. The unique component of system is our [authorial algorithm of precise sea ice drift retrieving](https://ieeexplore.ieee.org/abstract/document/7938663/).
+          <br>During my work at NIESRC we have developed several algorithms of automated sea ice conditions monitoring and unite them to operative informational system. Every day sytem downloads new Sentinel-1 SAR data, calculates sea ice classification map, sea ice drift map, detects icebergs and publish maps to NextGIS Web server GIS. The unique component of system is our [authorial algorithm of precise sea ice drift retrieving](https://ieeexplore.ieee.org/abstract/document/7938663/).
           
-           ![SeaMonitoring](/images/seamonitoring.png "SeaMonitoring")
+          <div align="center"><img src="/images/seamonitoring.png" width="600"></div>
            
       - layout: top-middle
         title: Complex research for coccolithophores blooms in Arctic and Sub-Arctic Seas (1998-2016)
         
         description: | # this will include new lines to allow paragraphs
-          Under guidance of prof. Dmitry Pozdnyakov at NIESRC we have to do large-scale study about coccolithophores blooms and how they affect global climate system. Large satellite dataset for 20 years was collected and processed with authorial algorithms together with in-situ measurements. We have prepared and published [database of calculated blooms](https://www.earth-syst-sci-data.net/11/119/2019/essd-11-119-2019.html) and several papers about research: [1](https://doi.org/10.1117/12.2325127),[2](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11150/2547868/Environmental-conditions-favoring-coccolithophore-blooms-in-subarctic-and-arctic-seas/10.1117/12.2547868.short?SSO=1),[3](http://journals.krc.karelia.ru/index.php/limnology/article/view/1107/783)
+          <br>Under guidance of prof. Dmitry Pozdnyakov at NIESRC we have to do large-scale study about coccolithophores blooms and how they affect global climate system. Large satellite dataset for 20 years was collected and processed with authorial algorithms together with in-situ measurements. We have prepared and published [database of calculated blooms](https://www.earth-syst-sci-data.net/11/119/2019/essd-11-119-2019.html). Then we [analyzed](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11150/2547868/Environmental-conditions-favoring-coccolithophore-blooms-in-subarctic-and-arctic-seas/10.1117/12.2547868.full?SSO=1) which factors affects blooms and how it is possible to predict them with machine learning techniques.
           
-           ![Huxley](/images/huxley.png "Huxley")
+           <div align="center"><img src="/images/huxley.png" width="600"></div>
+           
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
