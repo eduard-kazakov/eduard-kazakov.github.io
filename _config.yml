@@ -125,11 +125,11 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
       - I'm from Russia, but now me with wife and infant live in Novi Sad, Serbia.
-      - Big fan of QGIS. I'm main coordinator of russion translation, author of [popular public plugins](https://plugins.qgis.org/plugins/author/Eduard%2520Kazakov/), QGIS-related events organizer, consultant etc.
+      - Big fan of QGIS. I'm main coordinator of russian translation, author of [popular public plugins](https://plugins.qgis.org/plugins/author/Eduard%2520Kazakov/), QGIS-related events organizer, consultant etc.
       - Prefer to use and improve opensource (software, data, documentation) when it's possible.
       - Most important words: community, partnership, knowledge sharing.
       - Hate violence of all forms and motivations.
-      - Best pastime outside of work: family, hiking, classical music.
+      - Best pastime outside of work: family, hiking, classical music, reading.
 
   - title: Selected papers and projects # Title for the section
     layout: list # Type of content section (list/text)
@@ -148,7 +148,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           During my work at Hydrological Institute I proposed a hypothesis about posibility to reconstruct gaps (e.g. clouds) in remote sensing imagery by establishing relationships between pixels based on archived data and machine learning techniques. We have implemented opensource software toolbox and test it for different datasets: LST, Albedo, NDVI. [Optimistic results](mdpi.com/2072-4292/12/23/3865) were obtained, and I used this algorithm when creating a continuous series of various parameters of the earth's surface
           
-           ![Gapfilling](/images/gapfilling.png "Gapfilling")
+          <p align="center"><img src="/images/gapfilling.png" width="600">)</p>
            
            
       - layout: top-middle
