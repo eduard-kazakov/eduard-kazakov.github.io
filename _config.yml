@@ -52,9 +52,14 @@ about_content: | # this will include new lines to allow paragraphs
 
   I am most skilled in: <mark>GIS</mark> <mark>QGIS</mark> <mark>Python</mark> <mark>GDAL/OGR</mark> <mark>Remote sensing data processing</mark> <mark>Scientific research</mark> <mark>Lecturing</mark>
   
-  Full list of publications: [Google Scholar](https://scholar.google.com/citations?user=kUaRzT4AAAAJ)
+  Full list of publications: [Google Scholar](https://scholar.google.com/citations?user=kUaRzT4AAAAJ) [ResearchGate] (https://www.researchgate.net/profile/Eduard-Kazakov/publications)
 
 content:
+  - title: List of keywords
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      <mark>Geoinformatics</mark> <mark>Earth remote sensing</mark> <mark>Spatial analysis</mark> <mark>Spatial data</mark> <mark>Cartography</mark> <mark>Software development</mark> <mark>Lecturing</mark> <mark>Scientific research</mark> <mark>Environmental monitoring</mark> <mark>Team management</mark> <mark>Project management</mark> <mark>QGIS</mark> <mark>GRASS</mark> <mark>SAGA</mark> <mark>ArcGIS</mark> <mark>MapInfo</mark> <mark>NextGIS Web</mark> <mark>Google Earth Engine</mark> <mark>Field data collecting</mark> <mark>QField</mark> <mark>NextGIS Collector</mark> <mark>Geodesy</mark> <mark>Photogrammetry</mark> <mark>Statistics</mark> <mark>Machine learning</mark> <mark>ENVI</mark> <mark>Agisoft Metashape</mark> <mark>OpenDroneMap</mark> <mark>OpenStreetMap</mark> <mark>SQL</mark> <mark>PostGIS</mark> <mark>Python</mark> <mark>GDAL/OGR</mark>  <mark>matplotlib</mark> <mark>pandas</mark> <mark>scikit-learn</mark> <mark>numpy</mark> <mark>Docker</mark> <mark>JavaScript</mark> <mark>Git</mark> <mark>Linux/Unix</mark> <mark>Solving computer problems</mark>  <mark>Qt</mark> <mark>Automation</mark> <mark>Copernicus data and services</mark> <mark>OGC standarts</mark> <mark>Sentinel</mark> <mark>Landsat</mark> <mark>MODIS</mark> <mark>VIIRS</mark> <mark>SAR</mark> <mark>Geomorphometrical analysis of DEMs</mark> <mark>Hydrological analysis of DEMs</mark> <mark>Network analysis</mark>
+
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -136,11 +141,6 @@ content:
           I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
           ![Trees](/cv/images/landscape-trees.jpg "Trees")
 
-
-  - title: List of keywords
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      <mark>Geoinformatics</mark> <mark>Earth remote sensing</mark> <mark>Spatial analysis</mark> <mark>Spatial data</mark> <mark>Cartography</mark> <mark>Software development</mark> <mark>Lecturing</mark> <mark>Scientific research</mark> <mark>Environmental monitoring</mark> <mark>Team management</mark> <mark>Project management</mark> <mark>QGIS</mark> <mark>GRASS</mark> <mark>SAGA</mark> <mark>ArcGIS</mark> <mark>MapInfo</mark> <mark>NextGIS Web</mark> <mark>Google Earth Engine</mark> <mark>Field data collecting</mark> <mark>QField</mark> <mark>NextGIS Collector</mark> <mark>Geodesy</mark> <mark>Photogrammetry</mark> <mark>Statistics</mark> <mark>Machine learning</mark> <mark>ENVI</mark> <mark>Agisoft Metashape</mark> <mark>OpenDroneMap</mark> <mark>OpenStreetMap</mark> <mark>SQL</mark> <mark>PostGIS</mark> <mark>Python</mark> <mark>GDAL/OGR</mark>  <mark>matplotlib</mark> <mark>pandas</mark> <mark>scikit-learn</mark> <mark>numpy</mark> <mark>Docker</mark> <mark>JavaScript</mark> <mark>Git</mark> <mark>Linux/Unix</mark> <mark>Solving computer problems</mark>  <mark>Qt</mark> <mark>Automation</mark> <mark>Copernicus data and services</mark> <mark>OGC standarts</mark> <mark>Sentinel</mark> <mark>Landsat</mark> <mark>MODIS</mark> <mark>VIIRS</mark> <mark>SAR</mark> <mark>Geomorphometrical analysis of DEMs</mark> <mark>Hydrological analysis of DEMs</mark> <mark>Network analysis</mark>
 
   - title: A Little More About Me
     layout: text
