@@ -173,7 +173,7 @@ content:
         title: Automated short-term forecast system based on open-source hydrological models 
         
         description: | # this will include new lines to allow paragraphs
-          <br>While working in State Hydrological Institute I developed automated system for water levels and discharges forecast at small rivers of North-West Russia. System is based on opensource models HBV, GR4J and SIMHYD, which were calibrated with machine learning techniques. WRF forecast was used for precipitation and temperature predictions - they are needed as inputs for hydrological models. Public web-frontend provides operative information (forecast for 3 days) and all retrospective data. Also email notifications for dangerous water levels were implemented.   
+          <br>While working in State Hydrological Institute I developed automated system for water levels and discharges forecast at small rivers of North-West Russia. System is based on opensource models HBV, GR4J and SIMHYD, which were calibrated with machine learning techniques. WRF forecast was used for precipitation and temperature predictions - they are needed as inputs for hydrological models. Public web-frontend provides operative information (forecast for 3 days) and all retrospective data. Also email notifications for dangerous water levels were implemented. Some details could be found <a href = "https://www.e3s-conferences.org/articles/e3sconf/abs/2020/23/e3sconf_vc2020_02002/e3sconf_vc2020_02002.html">here</a>.
           
            <div align="center"><img src="/images/forecasts.png" width="600"></div>
 
