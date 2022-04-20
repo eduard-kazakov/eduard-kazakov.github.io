@@ -126,7 +126,7 @@ content:
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      - I'm from Russia, but now me with wife and infant live in Novi Sad, Serbia.
+      - I'm from Russia, but now wife, infant and me live in Novi Sad, Serbia.
       - Big fan of QGIS. I'm main coordinator of russian translation, author of [popular public plugins](https://plugins.qgis.org/plugins/author/Eduard%2520Kazakov/), QGIS-related events organizer, consultant etc.
       - Prefer to use and improve opensource (software, data, documentation) when it's possible.
       - Most important words: community, partnership, knowledge sharing.
@@ -169,6 +169,14 @@ content:
           
            <div align="center"><img src="/images/huxley.png" width="600"></div>
            
+      - layout: top-middle
+        title: Automated short-term forecast system based on open-source hydrological models 
+        
+        description: | # this will include new lines to allow paragraphs
+          <br>While working in State Hydrological Institute I developed automated system for water levels and discharges forecast at small rivers of North-West Russia. System is based on opensource models HBV, GR4J and SIMHYD, which were calibrated with machine learning techniques. WRF forecast was used for precipitation and temperature predictions - they are needed as inputs for hydrological models. Public web-frontend provides operative information (forecast for 3 days) and all retrospective data. Also email notifications for dangerous water levels were implemented.   
+          
+           <div align="center"><img src="/images/forecasts.png" width="600"></div>
+
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
