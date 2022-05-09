@@ -48,9 +48,9 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/ekazakov.png
 about_content: | # this will include new lines to allow paragraphs
-  Hi there! My name is Eduard and I'm a specialist in geoinformatics, cartography and Earth remote sensing with scienific background. Enthusiast and contributor of opensource geospatial software, in love with geography and nature. Now I'm looking for a chance to start a new life in US, in industry or as PhD student.
+  Hi there! My name is Eduard and I'm a specialist in geoinformatics, cartography and Earth remote sensing with scienific background. Enthusiast and contributor of opensource geospatial software, in love with geography and nature. Now I'm looking for a chance to start a new life in EU or US.
 
-  I am most skilled in: <mark>GIS</mark> <mark>QGIS</mark> <mark>Python</mark> <mark>GDAL/OGR</mark> <mark>Remote sensing data processing</mark> <mark>Scientific research</mark> <mark>Lecturing</mark>
+  I am most skilled in: <mark>GIS</mark> <mark>QGIS</mark> <Python>mark</mark> <mark>GDAL/OGR</mark> <mark>Remote sensing data processing</mark> <mark>Scientific research</mark> <mark>Lecturing</mark>
   
   Full list of publications: [Google Scholar](https://scholar.google.com/citations?user=kUaRzT4AAAAJ), [ResearchGate](https://www.researchgate.net/profile/Eduard-Kazakov/publications)
 
@@ -63,11 +63,22 @@ content:
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      
+      - layout: left
+        title: NextGIS
+        link: nextgis.com
+        sub_title: GIS Consultant
+        caption: May 2022 - Present
+        quote: >
+          NextGIS is well-known company, developing full stack opensource GIS software: server, desktop and mobile
+        description: | # this will include new lines to allow paragraphs
+            Consulting on NextGIS Software, QGIS, GRASS, SAGA, GDAL/OGR, mapping etc.
+
       - layout: left
         title: NextGIS
         link: nextgis.com
         sub_title: Director of Educational programs
-        caption: January 2021 - Present
+        caption: January 2021 - May 2022
         quote: >
           NextGIS is well-known company, developing full stack opensource GIS software: server, desktop and mobile
         description: | # this will include new lines to allow paragraphs
