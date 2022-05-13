@@ -112,7 +112,8 @@
         "Leaflet",
 		"GDAL/OGR",
 		"OpenStreetMap",
-		"Cesium"
+		"Cesium",
+		"OGC standards"
       ]
     },
 	{
