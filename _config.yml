@@ -1,201 +1,27 @@
-# Site
-repository: sproogen/resume-theme
-favicon: images/favicon.ico
+# Site settings
 
-# Content configuration version
-version: 2
+# REQUIRED CHANGES
+# Edit next line, providing your own name.
+title: Eduard Kazakov. GIS and Remote Sensing professional, cartographer, researcher
+# Edit next line, replacing 'techfolios' with your github username
+url: "https://eduard-kazakov.github.io"
+# Edit next line so that baseurl is "" if your repo is <username>.github.io
+baseurl: ""
 
-# Personal info
-name: Eduard Kazakov
-title: Specialist in GIS and Earth remote sensing, Cartographer, Researcher
-email: ee.kazakov@gmail.com
-website: www.github.com/eduard-kazakov
+# OPTIONAL CHANGES
+# You might want to change the bio page label to something else, such as CV
+bio-page-label: Resume
+# You might want to change the theme associated with one or more sections of the site.
+# Defining your own custom theme variations is easy. See the documentation.
+theme-home: theme-home-builtin-1.html
+theme-projects: theme-projects-builtin-1.html
+theme-essays: theme-essays-builtin-1.html
+theme-bio: theme-bio-builtin-1.html
 
-# Dark Mode (true/false/never)
-darkmode: true
+# Specify the rouge syntax highlighter theme. Pick one from css/rouge.
+rouge-theme: igorpro
 
-# Social links
-#twitter_username: facespics
-github_username:  eduard-kazakov
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-facebook_username: eduard.kazakov.gis
-# flickr_username: jekyll
-# instagram_username: jameswgrant
-# linkedin_username: jameswgrant
-# xing_username: jekyll
-# pinterest_username: jekyll
-# youtube_username: globalmtb
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
+# YOU NORMALLY NEVER CHANGE THE FOLLOWING
+markdown: kramdown
+include: [_data]
 
-# Additional icon links
-additional_links:
-- title: Telegram
-  icon: fab fa-telegram
-  url: https://www.t.me/kazakov_e
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
-
-# About Section
-# about_title: About Me
-about_profile_image: images/ekazakov.png
-about_content: | # this will include new lines to allow paragraphs
-  Hi there! My name is Eduard and I'm a specialist in geoinformatics, cartography and Earth remote sensing with scienific background. Enthusiast and contributor of opensource geospatial software, in love with geography and nature. Now I'm looking for a chance to start a new life in EU or US.
-
-  I am most skilled in: <mark>GIS</mark> <mark>QGIS</mark> <mark>Python</mark> <mark>GDAL/OGR</mark> <mark>Remote sensing data processing</mark> <mark>Scientific research</mark> <mark>Lecturing</mark>
-  
-  Full list of publications: [Google Scholar](https://scholar.google.com/citations?user=kUaRzT4AAAAJ), [ResearchGate](https://www.researchgate.net/profile/Eduard-Kazakov/publications)
-
-content:
-  - title: List of keywords
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      <mark>Geoinformatics</mark> <mark>Earth remote sensing</mark> <mark>Spatial analysis</mark> <mark>Spatial data</mark> <mark>Cartography</mark> <mark>Software development</mark> <mark>Lecturing</mark> <mark>Scientific research</mark> <mark>Environmental monitoring</mark> <mark>Team management</mark> <mark>Project management</mark> <mark>QGIS</mark> <mark>GRASS</mark> <mark>SAGA</mark> <mark>ArcGIS</mark> <mark>MapInfo</mark> <mark>NextGIS Web</mark> <mark>Google Earth Engine</mark> <mark>Field data collecting</mark> <mark>QField</mark> <mark>NextGIS Collector</mark> <mark>Geodesy</mark> <mark>Photogrammetry</mark> <mark>UAV</mark> <mark>Statistics</mark> <mark>Machine learning</mark> <mark>ENVI</mark> <mark>Agisoft Metashape</mark> <mark>OpenDroneMap</mark> <mark>OpenStreetMap</mark> <mark>SQL</mark> <mark>PostGIS</mark> <mark>Python</mark> <mark>GDAL/OGR</mark>  <mark>matplotlib</mark> <mark>pandas</mark> <mark>scikit-learn</mark> <mark>numpy</mark> <mark>Docker</mark> <mark>JavaScript</mark> <mark>Git</mark> <mark>Linux/Unix</mark> <mark>Solving computer problems</mark>  <mark>Qt</mark> <mark>Automation</mark> <mark>Copernicus data and services</mark> <mark>OGC standarts</mark> <mark>Sentinel</mark> <mark>Landsat</mark> <mark>MODIS</mark> <mark>VIIRS</mark> <mark>SAR</mark> <mark>Geomorphometrical analysis of DEMs</mark> <mark>Hydrological analysis of DEMs</mark> <mark>Network analysis</mark> <mark>Potree</mark> <mark>Latex</mark>
-
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      
-      - layout: left
-        title: NextGIS
-        link: nextgis.com
-        sub_title: GIS Consultant
-        caption: May 2022 - Present
-        quote: >
-          NextGIS is well-known company, developing full stack opensource GIS software: server, desktop and mobile
-        description: | # this will include new lines to allow paragraphs
-            Consulting on NextGIS Software, QGIS, GRASS, SAGA, GDAL/OGR, mapping etc.
-
-      - layout: left
-        title: NextGIS
-        link: nextgis.com
-        sub_title: Director of Educational programs
-        caption: January 2021 - May 2022
-        description: | # this will include new lines to allow paragraphs
-            Managing processes around education, community and public relations. Developing and conducting of educational courses for NextGIS Software, QGIS, GRASS, SAGA etc. Consulting. Presentations for clients.
-            
-      - layout: left
-        title: State Hydrological Institute
-        link: http://hydrology.ru/en
-        link_text: hydrology.ru
-        sub_title: Head of Geoinformatics group
-        caption: March 2019 - January 2021
-        quote: >
-          State Hydrological Institute is a center of water resources research in Russia
-        description: | # this will include new lines to allow paragraphs
-            Managing small but gorgeus group of researchers and software developers. Scientific research in field of water resources and hydrological processes modeling on basis of GIS and remote sensing data. Developing software, making maps (a lot of!), writing papers.
-      
-      - layout: left
-        title: NextGIS
-        link: nextgis.com
-        sub_title: Software developer (part time)
-        caption: March 2019 - January 2021
-        description: | # this will include new lines to allow paragraphs
-            Different stuff mostly in python: QGIS plugins, scripts for geodata processing, modeling over remote sensing data. Making maps.
-            
-      - layout: left
-        title: Nansen International Environmental and Remote Sensing Center
-        link: http://www.niersc.spb.ru/
-        link_text: niersc.spb.ru
-        sub_title: Researcher
-        caption: March 2016 - December 2018
-        quote: >
-          NIERSC is Russian branch of Norway-based Nansen center, conducting advanced research in the field of remote sensing of environment
-        description: | # this will include new lines to allow paragraphs
-            Scientific research in two research groups: «Aquatic ecosystems in response to global change» and «Applied meteorological and oceanographic research». Processing satellite remote sensing data, developing automated environmental monitoring system, writing papers.
-
-      - layout: left
-        title: Saint Petersburg State University
-        link: https://english.spbu.ru/
-        sub_title: Lecturer
-        caption: September 2014 - July 2017
-        description: | # this will include new lines to allow paragraphs
-            Lecturing at department of cartography and geoinformatics. Conductiong courses: basics of GIS, basics of Earth Remote Sensing, basics of Photogrammetry, basics of Geodesy, GIS for human geography.
-
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Saint Petersburg State University
-        caption: 2009 - 2014
-        sub_title: Specialist in Geoinformatics (equal to MSc)
-        quote: >
-            Saint Petersburg University is the oldest and one of the largest universities in Russia. Founded in 1724 by a decree of Peter the Great, the university from the very beginning has had a strong focus on fundamental research in science, engineering and humanities.
-        description: | # this will include new lines to allow paragraphs
-          During my time at department of cartography and geoinformatics in Saint Petersburg State University I learnt deeply all fundamentals of cartography, geodesy, photogrammetry, geoinformatics and satellite remote sensing. 
-
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      - I'm from Russia, but now wife, infant and me live in Novi Sad, Serbia.
-      - Big fan of QGIS. I'm main coordinator of russian translation, author of [popular public plugins](https://plugins.qgis.org/plugins/author/Eduard%2520Kazakov/), QGIS-related events organizer, consultant etc.
-      - Prefer to use and improve opensource (software, data, documentation) when it's possible.
-      - Most important words: community, partnership, knowledge sharing.
-      - Hate violence of all forms and motivations.
-      - Best pastime outside of work: family, hiking, classical music, reading.
-
-  - title: Selected papers and projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: A Machine Learning Approach for Remote Sensing Data Gap-Filling with Open-Source Implementation. An Example Regarding Land Surface Temperature, Surface Albedo and NDVI
-        link: mdpi.com/2072-4292/12/23/3865
-        # link_text: Project Website
-        additional_links:
-          - title: Dreamlone/SSGP-toolbox
-            icon: fab fa-github
-            url: github.com/Dreamlone/SSGP-toolbox
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        description: | # this will include new lines to allow paragraphs
-          During my work at Hydrological Institute I proposed a hypothesis about posibility to reconstruct gaps (e.g. clouds) in remote sensing imagery by establishing relationships between pixels based on archived data and machine learning techniques. We have implemented opensource software toolbox and test it for different datasets: LST, Albedo, NDVI. [Optimistic results](mdpi.com/2072-4292/12/23/3865) were obtained, and I used this algorithm when creating a continuous series of various parameters of the Earth's surface
-          
-          <div align="center"><img src="/images/gapfilling.png" width="600"></div>
-           
-           
-      - layout: top-middle
-        title: Automated monitoring system of ice conditions in Arctic seas based on SAR data
-        
-        description: | # this will include new lines to allow paragraphs
-          <br>During my work at NIESRC we have developed several algorithms of automated sea ice conditions monitoring and unite them to operative informational system. Every day sytem downloads new Sentinel-1 SAR data, calculates sea ice classification map, sea ice drift map, detects icebergs and publish maps to NextGIS Web server GIS. The unique component of system is our [authorial algorithm of precise sea ice drift retrieving](https://ieeexplore.ieee.org/abstract/document/7938663/).
-          
-          <div align="center"><img src="/images/seamonitoring.png" width="600"></div>
-           
-      - layout: top-middle
-        title: Complex research for coccolithophores blooms in Arctic and Sub-Arctic Seas (1998-2016)
-        
-        description: | # this will include new lines to allow paragraphs
-          <br>Under guidance of prof. Dmitry Pozdnyakov at NIESRC we conducted large-scale study about coccolithophores blooms and how they affect global climate system. Large satellite dataset for 20 years was collected and processed with authorial algorithms together with in-situ measurements. We have prepared and published [database of calculated blooms](https://www.earth-syst-sci-data.net/11/119/2019/essd-11-119-2019.html). Then we [analyzed](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11150/2547868/Environmental-conditions-favoring-coccolithophore-blooms-in-subarctic-and-arctic-seas/10.1117/12.2547868.full?SSO=1) which factors affects blooms and how it is possible to predict them with machine learning techniques.
-          
-           <div align="center"><img src="/images/huxley.png" width="600"></div>
-           
-      - layout: top-middle
-        title: Automated short-term forecast system based on open-source hydrological models 
-        
-        description: | # this will include new lines to allow paragraphs
-          <br>While working in State Hydrological Institute I developed automated system for water levels and discharges forecast at small rivers of North-West Russia. System is based on opensource models HBV, GR4J and SIMHYD, which were calibrated with machine learning techniques. WRF forecast was used for precipitation and temperature predictions - they are needed as inputs for hydrological models. Public web-frontend provides operative information (forecast for 3 days) and all retrospective data. Also email notifications for dangerous water levels were implemented. Some details can be found <a href = "https://www.e3s-conferences.org/articles/e3sconf/abs/2020/23/e3sconf_vc2020_02002/e3sconf_vc2020_02002.html">here</a>.
-          
-           <div align="center"><img src="/images/forecasts.png" width="600"></div>
-
-# Footer
-footer_show_references: true
-# references_title: References on request (Override references text)
-
-# Build settings
-remote_theme: sproogen/resume-theme
-
-sass:
-  sass_dir: _sass
-  style: compressed
-
-plugins:
- - jekyll-seo-tag

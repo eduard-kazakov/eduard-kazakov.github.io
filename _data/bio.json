@@ -1,0 +1,200 @@
+{
+  "basics": {
+    "name": "Eduard Kazakov",
+    "label": "GIS and Remote Sensing Professional, Cartographer, Researcher",
+    "picture": "https://raw.githubusercontent.com/eduard-kazakov/eduard-kazakov.github.io/master/images/ekazakov.png",
+    "email": "ee.kazakov@gmail.com",
+    "phone": "+381637735706",
+    "website": "https://eduard-kazakov.github.io",
+    "summary": "Experienced professional in Geoinformatics, Cartography and Earth remote sensing with scientific background. Contributor and popularizer of open-source geospatial software, especially QGIS. Environmental science, GIS and maps lover.<br><br>Wide experience of geospatial technologies mastering in different areas (from water resources management to archaeology, from climatology to urban studies) gives me an opportunity to look at any geographic problem from different angles and use multidisciplinary approaches.",
+    "location": {
+      "address": "",
+      "postalCode": "21102",
+      "city": "Novi Sad",
+      "countryCode": "Serbia<br>(Russian citizenship)",
+      "region": ""
+    },
+    "profiles": [
+      {
+        "network": "github",
+        "username": "eduard-kazakov",
+        "url": "http://github.com/eduard-kazakov"
+      },
+      {
+        "network": "linkedin",
+        "username": "eduard-kazakov-gis",
+        "url": "https://www.linkedin.com/in/eduard-kazakov-gis/"
+      },
+      {
+        "network": "facebook",
+        "username": "eduard.kazakov.gis",
+        "url": "https://www.facebook.com/eduard.kazakov.gis/"
+      }
+    ]
+  },
+  "interests": [
+    {
+      "name": "GIS",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Earth remote sensing",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Cartography & Geovisualization",
+      "keywords": [
+      ]
+    },
+	{
+      "name": "Spatial analysis",
+      "keywords": [
+      ]
+    },
+	{
+      "name": "Software development",
+      "keywords": [
+      ]
+    },
+	{
+      "name": "Environmental science",
+      "keywords": [
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "General",
+      "level": "",
+      "keywords": [
+		"Applied analysis with GIS",
+        "Map design",
+		"Spatial analysis",
+		"Scientific research/writing",
+		"Automated geospatial data processing",
+        "Statistics and Machine Learning basics",
+		"Remote sensing data processing algorithms",
+		"Field data collection with GIS"
+      ]
+    },
+	{
+      "name": "GIS desktop software",
+      "level": "",
+      "keywords": [
+        "QGIS",
+        "GRASS",
+        "SAGA",
+        "ArcGIS",
+        "MapInfo"
+      ]
+    },
+	{
+      "name": "Image processing software",
+      "level": "",
+      "keywords": [
+        "ENVI",
+		"ESA SNAP",
+		"Whitebox GAT",
+		"OpenDroneMap",
+        "Agisoft Metashape"
+      ]
+    },
+	{
+      "name": "GIS miscellaneous",
+      "level": "",
+      "keywords": [
+        "NextGIS Web",
+        "GeoServer",
+        "Potree",
+        "OpenLayers",
+        "Leaflet",
+		"GDAL/OGR",
+		"OpenStreetMap",
+		"Cesium"
+      ]
+    },
+	{
+      "name": "Programming",
+      "level": "",
+      "keywords": [
+        "Python (pandas, numpy, matplotlib, scikit-learn, scipy, jupyter)",
+		"JavaScript",
+		"PHP"
+      ]
+    },
+	{
+      "name": "Toolsets/OS",
+      "level": "",
+      "keywords": [
+        "Unix/Linux",
+		"Windows (Server)",
+		"Git",
+		"Docker"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "St. Petersburg State University",
+	  "studyType": "MSc",
+      "area": "Geoinformatics (with honors)",
+      "startDate": "2009-09-01",
+      "endDate": "2014-06-20",
+      "gpa": "4.8/5",
+      "courses": [
+      ]
+    }
+  ],
+  "work": [
+    {
+      "company": "NextGIS",
+      "position": "GIS Consultant",
+      "website": "https://nextgis.com",
+      "startDate": "2022-05-01",
+      "endDate": "Present",
+      "summary": "Consulting on QGIS, GRASS, SAGA, NextGIS software, Cartography, Python, GDAL/OGR etc."
+    },
+	{
+      "company": "NextGIS",
+      "position": "Director of Educational programs",
+      "website": "",
+      "startDate": "2021-01-01",
+      "endDate": "2022-05-01",
+      "summary": "Designing and conducting educational courses on NextGIS Software, QGIS, GRASS/SAGA, Python for geographical problems. GIS trainings, webinars, consulting. Presentations for clients."
+    },
+	{
+      "company": "NextGIS",
+      "position": "Software developer, GIS Analyst",
+      "website": "",
+      "startDate": "2019-02-01",
+      "endDate": "2021-01-01",
+      "summary": "Developing QGIS plugins and python scripts for geospatial data processing. Mapping, GIS analysis, creating tutorials."
+    },
+	{
+      "company": "State Hydrological Institute",
+      "position": "Head of Geoinformatics Group",
+      "website": "http://hydrology.ru/en",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "summary": "Managing group of engineers and scientists in field of GIS for water resources management and hydrological modeling. Scientific research, GIS analysis, mapping, software development.",
+    },
+	{
+      "company": "Nansen International Environmental and Remote Sensing Center",
+      "position": "Researcher",
+      "website": "http://www.niersc.spb.ru/",
+      "startDate": "2016-03-01",
+      "endDate": "2018-12-31",
+      "summary": "Scientific research (remote sensing of environment)",	
+    },
+	{
+      "company": "St. Petersburg State University",
+      "position": "Lecturer",
+      "website": "https://english.spbu.ru/",
+      "startDate": "2014-09-01",
+      "endDate": "2017-07-01",
+      "summary": "Designing and conducting educational courses on cartography, GIS, remote sensing, photogrammetry and geodesy. Supervising students projects.<br><br>",
+    }
+  ]
+}
