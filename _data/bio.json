@@ -6,7 +6,7 @@
     "email": "ee.kazakov@gmail.com",
     "phone": "+381637735706",
     "website": "https://eduard-kazakov.github.io",
-    "summary": "Experienced professional in Geoinformatics, Cartography and Earth remote sensing with scientific background. Contributor and popularizer of open-source geospatial software, especially QGIS. Environmental science, GIS and maps lover.<br><br>Wide experience of geospatial technologies mastering in different areas (from water resources management to archaeology, from climatology to urban studies) gives me an opportunity to look at any geographic problem from different angles and to use multidisciplinary approaches.<br><br>I am most skilled in: GIS, QGIS, Python, GDAL/OGR, Remote sensing data processing, Scientific research",
+    "summary": "Experienced professional in Geoinformatics, Cartography and Earth remote sensing with scientific background. Contributor and popularizer of open-source geospatial software, especially QGIS. Environmental science, GIS and maps lover.<br><br>Wide experience of geospatial technologies mastering in different areas (from water resources management to archaeology, from climatology to urban studies) gives me an opportunity to look at any geographic problem from different angles and to use multidisciplinary approaches.<br><br>I am most skilled in: GIS, QGIS, PostGIS, Python, GDAL/OGR, Remote sensing data processing, Scientific research",
     "location": {
       "address": "",
       "postalCode": "21102",
@@ -149,13 +149,13 @@
     }
   ],
   "work": [
-    {
-      "company": "NextGIS",
-      "position": "GIS Consultant",
-      "website": "https://nextgis.com",
-      "startDate": "2022-05-01",
-      "endDate": "Present",
-      "summary": "Consulting on QGIS, GRASS, SAGA, NextGIS software, Cartography, Python, GDAL/OGR etc."
+  {
+      "company": "Kontur.io",
+      "position": "Geospatial Data Engineer",
+      "website": "https://kontur.io",
+      "startDate": "2022-07-01",
+      "endDate": "2023-03-01",
+      "summary": "Mastering geospatial data pipelines using PostGIS, python, bash. Contributing to open-source Geocint framework and Kontur population dataset"
     },
 	{
       "company": "NextGIS",
